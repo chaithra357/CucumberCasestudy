@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-03T13:33:59.209Z",
+        "line": 16,
+        "name": "User is able to login and send email",
+        "description": "",
+        "id": "compose-and-send-email-to-other-account-in-system;user-is-able-to-login-and-send-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10776000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is registered user",
+            "match": {
+              "location": "StudyDefintion.StudySteps.the_user_is_registered_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter valid Name \"chethu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chethu\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StudyDefintion.StudySteps.enter_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Valid Password \"chethu123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chethu123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StudyDefintion.StudySteps.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4444000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on submit button",
+            "match": {
+              "location": "StudyDefintion.StudySteps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4742000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks on Compose",
+            "match": {
+              "location": "StudyDefintion.StudySteps.user_clicks_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5419000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters send to",
+            "match": {
+              "location": "StudyDefintion.StudySteps.user_enters_send_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters suubject",
+            "match": {
+              "location": "StudyDefintion.StudySteps.user_enters_suubject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6412000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters message",
+            "match": {
+              "location": "StudyDefintion.StudySteps.user_enters_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4836000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Send button",
+            "match": {
+              "location": "StudyDefintion.StudySteps.user_click_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see message sent",
+            "match": {
+              "location": "StudyDefintion.StudySteps.i_should_see_message_sent()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Compose and send email to other account in system",
+    "description": "",
+    "id": "compose-and-send-email-to-other-account-in-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
